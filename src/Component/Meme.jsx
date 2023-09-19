@@ -2,7 +2,7 @@ import React from "react";
 import memeData from "../memeData";
 
 function Meme()
-{
+{   
 
     const [ memeImage, setMemeImage ]   = React.useState('')
     const [meme,setmeme] = React.useState({
