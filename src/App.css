@@ -94,7 +94,19 @@ main{
   cursor: pointer;
 }
 
-.meme--image
+.meme
 {
-  max-width: 100%;
+  /* max-width: 100%; */
+  position: relative;
+}
+.top
+{
+  position: absolute;
+  top: 5%;
+  left: 20%;
+}
+.bottom{
+  position: absolute;
+  bottom: 5%;
+  left: 15%;
 }
